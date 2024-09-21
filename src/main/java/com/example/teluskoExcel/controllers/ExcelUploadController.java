@@ -1,29 +1,4 @@
 package com.example.teluskoExcel.controllers;
-//
-//
-//import com.example.teluskoExcel.models.GenericData;
-//import com.example.teluskoExcel.services.ExcelUploadService;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.http.ResponseEntity;
-//import org.springframework.web.bind.annotation.*;
-//import org.springframework.web.multipart.MultipartFile;
-//
-//import java.io.IOException;
-//import java.util.List;
-//
-//@RestController
-//@RequestMapping("/api/excel")
-//public class ExcelUploadController {
-//
-//    @Autowired
-//    private ExcelUploadService excelUploadService;
-//
-//    @PostMapping("/upload")
-//    public ResponseEntity<List<GenericData>> uploadExcel(@RequestParam("file") MultipartFile file) throws IOException {
-//        List<GenericData> savedData = excelUploadService.uploadExcel(file);
-//        return ResponseEntity.ok(savedData);
-//    }
-//}
 
 import com.example.teluskoExcel.models.Product;
 import com.example.teluskoExcel.services.ExcelUploadService;
